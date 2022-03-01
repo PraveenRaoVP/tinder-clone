@@ -1,3 +1,22 @@
 .header{
+    font-size: 20px;
+    margin: 5px;
+    padding: 0;
+    display: flex;
+    width: 100%;
+}
+.header-person{
     justify-content: left;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.header-tinder-logo{
+    margin: 0 auto;
+    object-fit: contain;
+    height: 20px;
+}
+
+.header-chat-icon{
+    
 }
