@@ -3,7 +3,7 @@
     margin: 5px;
     padding: 0;
     display: flex;
-    height: 50px;
+    height: 60px;
     width: 100%;
     background-color: rgba(128,128,128,0.2);
     border-radius: 5%;
@@ -16,14 +16,19 @@
     justify-content: left;
     max-height: 40px;
     margin-left: 15px;
+    margin: 0;
 }
 
 .header-tinder-logo{
     margin: 0 auto;
-    object-fit: contain;
-    max-height: 20px;
 }
+
+.header-tinder-logo img{
+    object-fit: cover;
+}
+
 
 .header-chat-icon{
    margin-right: 15px; 
+   margin: 0;
 }

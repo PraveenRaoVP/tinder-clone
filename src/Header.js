@@ -2,17 +2,22 @@ import React from 'react';
 import './Header.css';
 import PersonIcon from '@mui/icons-material/Person';
 import ForumIcon from '@mui/icons-material/Forum'
+import { IconButton } from '@mui/material';
 function Header() {
   return (
     <div class="header">
         <div className="header-person">
-            <PersonIcon fontSize="large" style={{fontSize: 45}}/>
+            <IconButton>
+                <PersonIcon fontSize="large" style={{fontSize: 45}}/>
+            </IconButton>
         </div>
         <div className="header-tinder-logo">
-            <img src="https://1000logos.net/wp-content/uploads/2018/07/Tinder-icon-3.png"></img>
+            <img src="https://logos-world.net/wp-content/uploads/2020/09/Tinder-Emblem.png" width="60" height="60"></img>
         </div>
         <div className="header-chat-icon">
-            <ForumIcon fontSize="large" style={{fontSize: 45}}/>
+            <IconButton>
+                <ForumIcon fontSize="large" style={{fontSize: 45}}/>
+            </IconButton>
         </div>
     </div>
   )
