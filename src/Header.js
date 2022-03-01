@@ -12,7 +12,7 @@ function Header() {
             </IconButton>
         </div>
         <div className="header-tinder-logo">
-            <img src="https://logos-world.net/wp-content/uploads/2020/09/Tinder-Emblem.png" width="60" height="60"></img>
+            <img src="https://logos-world.net/wp-content/uploads/2020/09/Tinder-Emblem.png" width="50" height="50"></img>
         </div>
         <div className="header-chat-icon">
             <IconButton>
