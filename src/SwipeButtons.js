@@ -5,24 +5,24 @@ import CloseIcon from '@mui/icons-material/Close';
 import StarRateIcon from '@mui/icons-material/StarRate';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FlashOnIcon from '@mui/icons-material/FlashOn';
-import { IconButton } from '@mui/material/IconButton';
+import { IconButton } from '@mui/material';
 
 function SwipeButtons() {
   return (
     <div className="swipeButtons">
-        <IconButton onClick={swiped} className="swipeButtons_replay">
+        <IconButton className="swipeButtons__replay">
             <ReplayIcon fontSize='large' />
         </IconButton>
-        <IconButton onClick={swiped} className="swipeButtons_close">
+        <IconButton className="swipeButtons__close">
             <CloseIcon fontSize='large' />
         </IconButton>
-        <IconButton onClick={swiped} className="swipeButtons_star">
+        <IconButton className="swipeButtons__star">
             <StarRateIcon fontSize='large' />
         </IconButton>
-        <IconButton onClick={swiped} className="swipeButtons_favorite">
+        <IconButton className="swipeButtons__favorite">
             <FavoriteIcon fontSize='large' />
         </IconButton>
-        <IconButton onClick={swiped} className="swipeButtons_lightning">
+        <IconButton className="swipeButtons__lightning">
             <FlashOnIcon fontSize='large' />
         </IconButton>
     </div>
